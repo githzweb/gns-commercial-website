@@ -1,0 +1,15 @@
+# Netlify build settings. Secrets and other environment variables are set in
+# the Netlify dashboard (Project configuration -> Environment variables),
+# never in this file.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Next.js runtime (OpenNext adapter): turns server features – dynamic pages,
+# search, the contact form server action – into Netlify Functions.
+# Not pinned on purpose: Netlify keeps it up to date.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

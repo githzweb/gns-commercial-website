@@ -1,0 +1,58 @@
+[
+  {
+    "source": "/shop/heavy-duty-very-narrow-aisle-(vna)-pallet-racking",
+    "destination": "/shop/heavy-duty-very-narrow-aisle-vna-pallet-racking"
+  },
+  {
+    "source": "/shop/i-door-chiller-sc-240l",
+    "destination": "/shop/1-door-chiller-sc-240l"
+  },
+  {
+    "source": "/shop/1door-chiller-sc-280l",
+    "destination": "/shop/1-door-chiller-sc-280l"
+  },
+  {
+    "source": "/shop/1-door-chiller-sc320l",
+    "destination": "/shop/1-door-chiller-sc-320l"
+  },
+  {
+    "source": "/shop/chest-freezer-scsdw400",
+    "destination": "/shop/chest-freezer-sc-sdw400"
+  },
+  {
+    "source": "/shop/chest-freezeer-sc-sdw450g",
+    "destination": "/shop/chest-freezer-sc-sdw450g"
+  },
+  {
+    "source": "/shop/twin-tank-electring-deep-fryer",
+    "destination": "/shop/twin-tank-electric-deep-fryer"
+  },
+  {
+    "source": "/service/product-assembly",
+    "destination": "/service/design-consultancy"
+  },
+  {
+    "source": "/service/surface-finishing",
+    "destination": "/service/retail-supermarket-equipment"
+  },
+  {
+    "source": "/service/quality-control-testing",
+    "destination": "/service/turnkey-project-management"
+  },
+  {
+    "source": "/case-study/lightweight-castings-for-industrial-equipment",
+    "destination": "/case-study/ananda-villas-luxury-resort-kitchen"
+  },
+  {
+    "source": "/case-study/precision-cnc-milling-for-automotive-components",
+    "destination": "/case-study/apacaba-coffee-specialty-setup"
+  },
+  {
+    "source": "/case-study/additive-manufacturing-for-custom-tooling",
+    "destination": "/case-study/24-seven-mart-retail-cooling"
+  },
+  {
+    "source": "/case-study/automated-assembly-line-optimization",
+    "destination": "/case-study/shaka-bistro-efficiency-kitchenization"
+  }
+]
