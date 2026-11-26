@@ -89,6 +89,20 @@ export async function SiteFooter() {
             )}
           </ul>
           {settings.openingHours && <p className="mt-3 whitespace-pre-line leading-6">{settings.openingHours}</p>}
+          {settings.branches?.length ? (
+            <div className="mt-5">
+              <p className="font-semibold text-white">Branches</p>
+              <ul className="mt-2 space-y-1">
+                {settings.branches.map((b) => (
+                  <li key={b._key}>
+                    <Link href="/contact#branches" className="hover:text-white">
+                      {b.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </div>
       </Container>
       <div className="border-t border-white/10">

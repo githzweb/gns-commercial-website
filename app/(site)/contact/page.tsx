@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 
+import { BranchesGrid } from "@/components/branches";
 import { ButtonLink, Container, PageHeader, WhatsAppIcon } from "@/components/ui";
 import { telLink, whatsappLink } from "@/lib/site";
 import { getSiteSettings } from "@/sanity/lib/data";
@@ -86,6 +87,22 @@ export default async function ContactPage() {
           </div>
         </div>
       </Container>
+
+      {settings.branches?.length ? (
+        <section id="branches" className="scroll-mt-24 bg-soft">
+          <Container className="py-14 sm:py-16">
+            <p className="text-xs font-semibold uppercase tracking-wider text-brand">Our branches</p>
+            <h2 className="mt-2 text-3xl font-semibold tracking-tight">Malaysia &amp; Singapore</h2>
+            <p className="mt-3 max-w-2xl text-muted">
+              Visit our showroom, or contact the branch nearest you. We deliver and install across Peninsular Malaysia
+              and Singapore.
+            </p>
+            <div className="mt-8">
+              <BranchesGrid branches={settings.branches} />
+            </div>
+          </Container>
+        </section>
+      ) : null}
     </>
   );
 }

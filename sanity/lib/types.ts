@@ -85,6 +85,23 @@ export type CaseStudy = CaseStudySummary & {
 
 export type Testimonial = { _id: string; quote: string; name: string; company?: string };
 
+export type Branch = {
+  _key: string;
+  name: string;
+  tradingName?: string;
+  country?: string;
+  kind?: string;
+  summary?: string;
+  address?: string;
+  otherAddress?: string;
+  phones?: string[];
+  whatsapp?: string;
+  openingHours?: string;
+  website?: string;
+  showMap?: boolean;
+  photo?: SanityImage;
+};
+
 export type SiteSettings = {
   companyName?: string;
   phones?: string[];
@@ -93,6 +110,7 @@ export type SiteSettings = {
   address?: string;
   mapUrl?: string;
   openingHours?: string;
+  branches?: Branch[];
   socialLinks?: { platform: string; url: string }[];
   stats?: Stat[];
 };
